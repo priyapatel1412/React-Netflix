@@ -1,0 +1,14 @@
+@API_URL = http://localhost:8800/api
+@token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYTVjMzZmMTEwMGViZjIxNmRmOWE5YyIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYzODkyMDUxOCwiZXhwIjoxNjM5MzUyNTE4fQ.Qf_Baka24TO-tSuEzCGc8fsRmnHEnIG7jimmxXJtht0"
+
+GET {{API_URL}}/movies
+Authorization: {{token}}
+
+###
+POST  {{API_URL}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "pri@ga.com",
+    "password": "chicken"
+}

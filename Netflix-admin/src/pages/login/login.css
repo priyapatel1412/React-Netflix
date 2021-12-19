@@ -1,0 +1,42 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../images/movies/bg1.jpeg");
+}
+
+.loginForm {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e50914;
+  flex-direction: column;
+}
+
+.loginLable {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.loginInput,
+.loginButton {
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.loginButton {
+  background: teal;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
